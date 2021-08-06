@@ -1,0 +1,25 @@
+.overview {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 1.5rem;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  .overview {
+    &__list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .overview {
+    &__list {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}

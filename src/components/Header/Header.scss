@@ -1,0 +1,49 @@
+// @use "../../common.scss" as *;
+
+.header {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  &__title-section {
+    text-transform: capitalize;
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      height: 0.05rem;
+      width: 100%;
+      background: var(--text-dark-gray-blue);
+      bottom: -1.5rem;
+    }
+  }
+  &__title {
+    font-weight: var(--font-bold);
+  }
+  &__sub-title {
+    font-weight: var(--font-bold);
+    color: var(--text-dark-gray-blue);
+    margin: 0;
+  }
+  &__toggle {
+    margin-top: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &__title-section {
+      &:after {
+        display: none;
+      }
+    }
+    &__title {
+      margin: 0;
+    }
+    &__toggle {
+      margin-top: 0;
+    }
+  }
+}

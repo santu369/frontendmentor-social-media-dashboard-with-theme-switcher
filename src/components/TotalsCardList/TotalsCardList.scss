@@ -1,0 +1,32 @@
+.totals {
+  &__cards {
+    margin: 1rem 0;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 1.5rem;
+    margin: 0;
+    // transition:
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  .totals {
+    &__cards {
+      margin: 2rem 0;
+    }
+    &__list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .totals {
+    &__list {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}

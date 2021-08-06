@@ -1,0 +1,31 @@
+.App {
+  min-width: 15rem;
+  width: 70rem;
+  max-width: 90vw;
+}
+
+.section {
+  &__title {
+    color: var(--text-dark-blue);
+    text-align: left;
+    font-weight: var(--font-bold);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 23.4375rem) {
+  .app-animate {
+    animation: circle-anim 500ms ease-in-out alternate;
+  }
+}
+
+@keyframes circle-anim {
+  0% {
+    clip-path: circle(0.5% at 96.5% 5%);
+  }
+
+  100% {
+    clip-path: circle(150% at 96.5% 5%);
+  }
+}

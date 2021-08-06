@@ -1,0 +1,57 @@
+.overview {
+  &__card {
+    padding: 1rem 1.5rem;
+    background: var(--card-bg);
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    border-radius: 0.45rem;
+    &:hover,
+    &:focus-visible {
+      cursor: pointer;
+      background: var(--card-hover);
+    }
+  }
+  &__heading {
+    justify-self: left;
+    font-size: 1rem;
+    font-weight: var(--font-bold);
+    color: var(--text-dark-gray-blue);
+    text-transform: capitalize;
+    margin: 0;
+  }
+  &__logo {
+    justify-self: right;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  &__count {
+    justify-self: left;
+    font-size: 2rem;
+    font-weight: var(--font-bold);
+    margin: 0;
+  }
+  &__count-stats {
+    justify-self: right;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  &__arrow-icon {
+    width: 0.5rem;
+    height: 0.25rem;
+  }
+  &__count-percent {
+    margin: 0;
+    font-weight: var(--font-bold);
+    color: var(--text-dark-gray-blue);
+    &[data-color="true"] {
+      color: var(--prim-lime-green);
+    }
+    &[data-color="false"] {
+      color: var(--prim-bright-red);
+    }
+  }
+}
