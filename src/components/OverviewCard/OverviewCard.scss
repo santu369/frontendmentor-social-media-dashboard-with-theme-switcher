@@ -12,6 +12,23 @@
     &:focus-visible {
       cursor: pointer;
       background: var(--card-hover);
+      outline-offset: 0.25rem;
+    }
+    &[data-border="facebook"]:hover,
+    &[data-border="facebook"]:focus-visible {
+      outline: var(--prim-facebook) dotted 0.25rem;
+    }
+    &[data-border="twitter"]:hover,
+    &[data-border="twitter"]:focus-visible {
+      outline: var(--prim-twitter) dotted 0.25rem;
+    }
+    &[data-border="instagram"]:hover,
+    &[data-border="instagram"]:focus-visible {
+      outline: var(--instagram-grad) dotted 0.25rem;
+    }
+    &[data-border="youtube"]:hover,
+    &[data-border="youtube"]:focus-visible {
+      outline: var(--prim-youtube) dotted 0.25rem;
     }
   }
   &__heading {

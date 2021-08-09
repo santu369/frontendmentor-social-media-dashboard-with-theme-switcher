@@ -10,7 +10,11 @@ const OverviewCard = ({
   countPercent,
 }) => {
   return (
-    <div className="overview__card">
+    <div
+      className="overview__card"
+      tabIndex="0"
+      data-border={logoAlt.split(" ")[0]}
+    >
       <h3 className="overview__heading">{title}</h3>
       <img src={logo} alt={logoAlt} className="overview__logo" />
       <p className="overview__count">{count}</p>

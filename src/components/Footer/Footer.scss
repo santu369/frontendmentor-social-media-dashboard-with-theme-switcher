@@ -1,0 +1,34 @@
+@use "../../common.scss" as *;
+
+.footer {
+  background-color: var(--white-bg);
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  &__section {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  &__link {
+    display: inline-block;
+    color: var(--text-dark-gray-blue);
+    font-weight: var(--font-bold);
+    margin-left: 0.5em;
+    &:hover,
+    &:focus-visible {
+      outline: var(--text-dark-gray-blue) dotted 0.25rem !important;
+      color: var(--text-dark-blue);
+      outline-offset: 0.25rem !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+}

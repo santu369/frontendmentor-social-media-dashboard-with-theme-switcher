@@ -25,8 +25,8 @@
     &:after {
       content: "";
       display: block;
-      transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      // background: var(--toggle);
+      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        left 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     &:before {
       // height: 1.5rem;
@@ -58,7 +58,7 @@
   }
   &__check:hover + &__main:before,
   &__check:focus-visible + &__main:before {
-    outline: #5d9dd5 dotted 0.25rem;
+    outline: var(--toggle-hover-outline) dotted 0.25rem;
     outline-offset: 0.125rem;
     background: linear-gradient(
       to right,

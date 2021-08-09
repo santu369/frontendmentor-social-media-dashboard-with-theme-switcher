@@ -11,7 +11,11 @@ const TotalsCard = ({
   statsToday,
 }) => {
   return (
-    <div className="totals__card" data-border={logoAlt.split(" ")[0]}>
+    <div
+      className="totals__card"
+      data-border={logoAlt.split(" ")[0]}
+      tabIndex="0"
+    >
       <div className="totals__top">
         <img className="totals__social-icon" src={logo} alt={logoAlt} />
         <p className="totals__username">{username}</p>
