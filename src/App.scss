@@ -14,10 +14,8 @@
   }
 }
 
-@media only screen and (min-width: 23.4375rem) {
-  .app-animate {
-    animation: circle-anim 500ms ease-in-out alternate;
-  }
+.app-animate {
+  animation: circle-anim 350ms ease-in-out alternate;
 }
 
 @keyframes circle-anim {

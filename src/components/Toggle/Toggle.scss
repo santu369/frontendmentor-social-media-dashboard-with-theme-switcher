@@ -35,7 +35,7 @@
       width: 3rem;
       border-radius: 0.8rem;
       // opacity: 0.6;
-      background: linear-gradient(
+      background-image: linear-gradient(
         to right,
         var(--toggle-grad-start),
         var(--toggle-grad-end)
@@ -60,7 +60,7 @@
   &__check:focus-visible + &__main:before {
     outline: var(--toggle-hover-outline) dotted 0.25rem;
     outline-offset: 0.125rem;
-    background: linear-gradient(
+    background-image: linear-gradient(
       to right,
       var(--toggle-hover-grad-start),
       var(--toggle-hover-grad-end)

@@ -8,13 +8,12 @@ const Footer = () => {
         Challenge by
         <a
           className="footer__link"
-          href="https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8"
+          href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H"
           rel="noopener noreferrer"
           target="_blank"
         >
           Frontend Mentor
         </a>
-        .
       </p>
       <p className="footer__section">
         Coded by
@@ -26,7 +25,6 @@ const Footer = () => {
         >
           Shiva Santosh Jana
         </a>
-        .
       </p>
     </div>
   );

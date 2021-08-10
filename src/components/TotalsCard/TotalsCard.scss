@@ -22,7 +22,7 @@
       background: var(--prim-twitter);
     }
     &[data-border="instagram"]:before {
-      background: linear-gradient(
+      background-image: linear-gradient(
         to right,
         var(--prim-instagram-grad-start),
         var(--prim-instagram-grad-end)
