@@ -8,11 +8,11 @@ const animation = () => {
   clearInterval(timeout);
   appEl.classList.remove("app-animate");
   void appEl.offsetWidth; // Restart Css Animation | CSS-Tricks : https://css-tricks.com/restart-css-animation/
-  console.log(appEl.offsetWidth);
   appEl.classList.add("app-animate");
 };
 const Header = () => {
   const [toggle, setToggle] = useState(true);
+
   useEffect(() => {
     if (window.localStorage.getItem("colorscheme") === "dark") {
       setToggle(false);
@@ -30,6 +30,11 @@ const Header = () => {
         setColorScheme("dark");
       }
     }
+    // added for screenshot
+    setToggle(false);
+    setMode("dark");
+    setColorScheme("dark");
+
     animation();
   }, []);
 
@@ -49,7 +54,6 @@ const Header = () => {
     });
 
   const onChange = () => {
-    console.log("triggered");
     setToggle((prevValue) => !prevValue);
     animation();
     if (toggle === true) {
