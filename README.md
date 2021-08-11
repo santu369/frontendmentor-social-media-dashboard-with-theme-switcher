@@ -27,17 +27,29 @@ Users should be able to:
 
 ### Screenshots
 
-Desktop version
+Desktop version - light
 
-![desktop version](./screenshots/desktop-version.png)
+![desktop version light](./screenshots/desktop-version-light.png)
 
-Tablet version
+Desktop version - dark
 
-![tablet version](./screenshots/tablet-version.png)
+![desktop version dark](./screenshots/desktop-version-dark.png)
 
-Mobile version
+Tablet version - light
 
-![mobile version](./screenshots/mobile-version.png)
+![tablet version light](./screenshots/tablet-version-light.png)
+
+Tablet version - dark
+
+![tablet version dark](./screenshots/tablet-version-dark.png)
+
+Mobile version - light
+
+![mobile version light](./screenshots/mobile-version-light.png)
+
+Mobile version - dark
+
+![mobile version dark](./screenshots/mobile-version-dark.png)
 
 ### Links
 
@@ -85,7 +97,9 @@ Continue working on more full page designs in frontendmentor using react.
 - [Bootstrap CSS](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Getting started with Bootstrap.
 - [React](https://reactjs.org/) - Javascript library for building interfaces.
 - [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) - The prefers-color-scheme CSS media feature is used to detect if the user has requested a light or dark color theme.
-- [clip-path](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path) - The clip-path CSS property creates a clipping region that sets what part of an element should be shown. Parts that are inside the region are shown, while those outside are hidden. -[Clippy — CSS clip-path maker](https://bennettfeely.com/clippy/) - Tool to help make CSS clip-paths.
+- [clip-path](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path) - The clip-path CSS property creates a clipping region that sets what part of an element should be shown. Parts that are inside the region are shown, while those outside are hidden.
+- [Clippy — CSS clip-path maker](https://bennettfeely.com/clippy/) - Tool to help make CSS clip-paths.
+- [Restart Css Animation | CSS-Tricks](https://css-tricks.com/restart-css-animation/) - Restart CSS Animation.
 
 ## Author
 

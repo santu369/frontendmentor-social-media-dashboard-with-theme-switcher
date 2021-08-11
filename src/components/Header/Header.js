@@ -4,12 +4,12 @@ import Toggle from "../Toggle/Toggle";
 
 let timeout;
 const animation = () => {
+  const appEl = document.querySelector(".App");
   clearInterval(timeout);
-  document.querySelector(".App").classList.remove("app-animate");
-  document.querySelector(".App").classList.add("app-animate");
-  timeout = setTimeout(() => {
-    document.querySelector(".App").classList.remove("app-animate");
-  }, 400);
+  appEl.classList.remove("app-animate");
+  void appEl.offsetWidth; // Restart Css Animation | CSS-Tricks : https://css-tricks.com/restart-css-animation/
+  console.log(appEl.offsetWidth);
+  appEl.classList.add("app-animate");
 };
 const Header = () => {
   const [toggle, setToggle] = useState(true);
