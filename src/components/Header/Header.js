@@ -30,11 +30,6 @@ const Header = () => {
         setColorScheme("dark");
       }
     }
-    // added for screenshot
-    setToggle(false);
-    setMode("dark");
-    setColorScheme("dark");
-
     animation();
   }, []);
 
