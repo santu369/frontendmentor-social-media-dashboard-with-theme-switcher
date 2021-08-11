@@ -3,7 +3,7 @@ import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <p className="footer__section">
         Challenge by
         <a
@@ -26,7 +26,7 @@ const Footer = () => {
           Shiva Santosh Jana
         </a>
       </p>
-    </div>
+    </footer>
   );
 };
 
