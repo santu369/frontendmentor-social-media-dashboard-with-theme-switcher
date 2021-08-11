@@ -50,20 +50,6 @@ a {
   text-decoration: none;
 }
 
-// a:hover,
-// a:focus-visible,
-// button:hover,
-// button:focus-visible {
-//   outline: red dotted 0.25rem !important;
-//   outline-offset: 0.25rem !important;
-// }
-
-// a:active,
-// button:active {
-//   transition: all 100ms cubic-bezier(0.4, 0, 0.2, 1);
-//   transform: scale(0.9);
-// }
-
 /* no animations for users who prefer reduced animations */
 
 @media (prefers-reduced-motion: reduce) {

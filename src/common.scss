@@ -10,8 +10,6 @@
 
   /* light theme */
 
-  // --toggle: hsl(230, 22%, 74%);
-
   --toggle-grad-start: hsl(230, 22%, 74%);
   --toggle-grad-end: hsl(230, 22%, 74%);
 
@@ -33,21 +31,6 @@
   --toggle-hover-outline: hsl(208, 59%, 60%);
   --instagram-grad: rgb(230, 116, 201);
 }
-
-// @media (prefers-color-scheme: dark) {
-//   :root {
-//     /* dark theme */
-
-//     --toggle-grad-start: hsl(210, 78%, 56%);
-//     --toggle-grad-end: hsl(146, 68%, 55%);
-
-//     --white-bg: hsl(230, 17%, 14%);
-//     --top-bg-pattern: hsl(232, 19%, 15%);
-//     --card-bg: hsl(228, 28%, 20%);
-//     --text-dark-gray-blue: hsl(228, 34%, 66%);
-//     --text-dark-blue: hsl(0, 0%, 100%);
-//   }
-// }
 
 :root[data-theme="dark"] {
   /* dark theme */
